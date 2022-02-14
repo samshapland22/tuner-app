@@ -12,7 +12,7 @@ function Songs() {
       .get(API + "/songs")
       .then((res) => {
         console.log(res);
-        setSongs(res.data.payload);
+        setSongs(res.data);
       })
       .catch((err) => {
         console.log(err);
