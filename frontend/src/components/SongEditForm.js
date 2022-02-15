@@ -12,7 +12,7 @@ function SongEditForm() {
     song_name: "",
     artist: "",
     run_time_seconds: "",
-    isFavorite: false,
+    is_favorite: false,
   });
 
   const updateSong = (updatedSong) => {
